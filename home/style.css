@@ -1,0 +1,74 @@
+/* CSS files add styling rules to your content */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 460px;
+  left: 320px;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-color: white;
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 80px;
+  margin-right: 120px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+strong {
+  color: #303030;
+}
+
+h1:hover {
+  color: grey;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+  background-color: white;
+}
+h4 {
+  font-color: white;
+  margin-top: 15px;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+strong {
+  color: white;
+}
+
+h4:hover {
+  color: grey;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) .parallax {
+  background-attachment: scroll;
+}
